@@ -8,3 +8,6 @@ X86 System, Python 2.7 <br>
 zbar 0.1 <br>
 PIL <br>
 PyQt4 
+
+### Python版本运行截图
+![](https://github.com/crown-prince/SafeQR/blob/master/IMG/GUI.png "Python版本运行截图")
