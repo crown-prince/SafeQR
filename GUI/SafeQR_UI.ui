@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QWidget" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>355</width>
+    <height>417</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>SafeQR</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>GUI/images/logo.ico</normaloff>GUI/images/logo.ico</iconset>
+  </property>
+  <property name="windowOpacity">
+   <double>1.000000000000000</double>
+  </property>
+  <widget class="QPushButton" name="Load_IMG">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>20</y>
+     <width>71</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Batang</family>
+    </font>
+   </property>
+   <property name="text">
+    <string>Load IMG</string>
+   </property>
+  </widget>
+  <widget class="QTextBrowser" name="output">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>241</y>
+     <width>201</width>
+     <height>161</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Batang</family>
+     <pointsize>11</pointsize>
+    </font>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>210</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Batang</family>
+     <pointsize>11</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Output</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="WhiteList">
+   <property name="geometry">
+    <rect>
+     <x>14</x>
+     <y>250</y>
+     <width>91</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Batang</family>
+    </font>
+   </property>
+   <property name="text">
+    <string>Domain Test</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Md5">
+   <property name="geometry">
+    <rect>
+     <x>14</x>
+     <y>300</y>
+     <width>91</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Batang</family>
+    </font>
+   </property>
+   <property name="text">
+    <string>Pathfinder</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="scan">
+   <property name="geometry">
+    <rect>
+     <x>14</x>
+     <y>350</y>
+     <width>91</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Batang</family>
+    </font>
+   </property>
+   <property name="text">
+    <string>Cloud Sandbox</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>30</y>
+     <width>191</width>
+     <height>151</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
